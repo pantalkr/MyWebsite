@@ -1,0 +1,9 @@
+language: node_js
+before_script:
+    - "npm install -g se-interpreter"
+script:
+    - "se-interpreter interpreter_config.json"
+env:
+    global:
+        - SAUCE_USERNAME=pantalkr
+        - secure: "GbYJB+SI/x8M5jUPAzRDKibZpjRCiFxwShBKDmY82TeWbhL16++YV2GZLf0B6ryg8pEHVhX205WkddeFgFqeDJYmXmItDVL2a8XCRfMgU4GpiL16uzodvhzlbcL+A4G2UdF512rf9SSIm3RFSM02cn8aPMGbSN2miBtDE7Q4F5U="
